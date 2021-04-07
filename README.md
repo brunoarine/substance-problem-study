@@ -1,6 +1,6 @@
 # The most common traits of substance abuse
 
-An exploratory analysis of substance abuse among OkCupid users, made with Python and Jupyter Notebook.
+An exploratory analysis of substance abuse among OkCupid users, made with Python, Jupyter Notebook, and Scikit-learn.
 
 ## Summary
 
@@ -37,7 +37,7 @@ Model's performance:
 | Specificity | 0.78  |
 | aROC        | 0.80  |
 
-By examining the bar plots and doing a $\chi^2$ test for each hypothesis, I came to the following conclusions:
+By examining the bar plots and doing a 𝛘² test for each hypothesis, these were my findings: 
 
 - When it comes to age, there’s a clear downward trend in substance abuse, so that the probability of finding anyone binge drinking or using drugs is nearly zero among the older groups.
 - There’s also a significant difference between genders, but only in the 30 to 39 and 40+ age groups (p < 0.05).
