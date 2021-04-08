@@ -12,7 +12,7 @@ This study tries to answer the following questions:
 
 1. Which age group shows the largest percentage of people with a possible substance addiction problem? And does substance abuse disproportionately affect any gender?
 
-2. Which kind profession is more vulnerable to substance abuse?
+2. Which profession is more vulnerable to substance abuse?
 
 3. Are people with kids or partners less likely to have a substance abuse problem?
 
@@ -24,7 +24,7 @@ And last but not least, I try to predict substance abuse with just the above cri
 
 ## Results
 
-The graph below presents the regression model's coefficients, which gives us an idea of how each variable affects prediction.
+The graph below presents the regression model's coefficients, which gives us an idea of how each variable affects the prediction.
 
 ![Logistic Regression coefficients](./results/coef.png)
 
