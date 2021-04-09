@@ -2,6 +2,8 @@
 
 An exploratory analysis of substance abuse among OkCupid users, made with Python, Jupyter Notebook, and Scikit-learn.
 
+Please read my [blog post](https://brunoarine.com/blog/the-most-common-traits-of-substance-abuse/) about it, or take a look at the Jupyter notebook for all technical details.
+
 ## Summary
 
 In 2017, nearly 20 million American adults (almost 7% of the population) battled a substance abuse problem, costing the US more than $740 billion annually in lost workplace productivity, healthcare expenses, and crime-related costs, according to the [American Addiction Centers](https://americanaddictioncenters.org/rehab-guide/addiction-statistics).
@@ -21,6 +23,15 @@ This study tries to answer the following questions:
 5. Does making healthy choices (e.g., not smoking or eating plant-based diets) correlate negatively with substance abuse?
 
 And last but not least, I try to predict substance abuse with just the above criteria using a simple Logistic Regression model with L2 regularization.
+
+## Disclaimer
+
+This study has a few major caveats: 
+
+- There are too few positive cases in the dataset, which can drastically affect the statistical power of the model's predictions.
+- The model assumes that frequent drinking and drug using automatically translates into substance abuse problems, which may not always be the case.
+
+Because of these drawbacks, **I strongly recommend against using this project as the basis for any decision involving human lives.** Even if it was a peer reviewed study (which it is not), more data and careful analysis would be required for any serious public policy regarding substance abuse.
 
 ## Results
 
@@ -49,7 +60,6 @@ By examining the bar plots and doing a 𝛘² test for each hypothesis, these we
 - Vegetarianism didn’t correlate with substance abuse, either negatively or positively.
 - Smoking is the best predictor of potential substance abuse problems, being common in all age groups (p < 0.0001).
 
-Please read my [blog post](https://brunoarine.com/blog/the-most-common-traits-of-substance-abuse/) about it, or take a look at the Jupyter notebook for all technical details.
 
 ## View the notebook
 
