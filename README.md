@@ -46,7 +46,7 @@ Model's performance:
 | Accuracy    | 0.78  |
 | Recall      | 0.83  |
 | Specificity | 0.78  |
-| aROC        | 0.80  |
+| aROC        | 0.84  |
 
 By examining the bar plots and doing a 𝛘² test for each hypothesis, these were my findings: 
 
