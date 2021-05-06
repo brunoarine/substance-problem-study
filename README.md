@@ -26,7 +26,7 @@ And last but not least, I try to predict substance abuse with just the above cri
 
 ## Disclaimer
 
-This study has a few major caveats: 
+This study has a few major caveats:
 
 - There are too few positive cases in the dataset, which can drastically affect the statistical power of the model's predictions.
 - The model assumes that frequent drinking and drug using automatically translates into substance abuse problems, which may not always be the case.
@@ -48,7 +48,7 @@ Model's performance:
 | Specificity | 0.78  |
 | aROC        | 0.84  |
 
-By examining the bar plots and doing a 𝛘² test for each hypothesis, these were my findings: 
+By examining the bar plots and doing a 𝛘² test for each hypothesis, these were my findings:
 
 - When it comes to age, there’s a clear downward trend in substance abuse, so that the probability of finding anyone binge drinking or using drugs is nearly zero among the older groups.
 - There’s also a significant difference between genders, but only in the 30 to 39 and 40+ age groups (p < 0.05).
@@ -58,8 +58,7 @@ By examining the bar plots and doing a 𝛘² test for each hypothesis, these we
 - Owning a cat seems to correlate with substance abuse.
 - Religious people are among the likeliest to have a substance abuse problem in all age groups (p < 0.01).
 - Vegetarianism didn’t correlate with substance abuse, either negatively or positively.
-- Smoking is the best predictor of potential substance abuse problems, being common in all age groups (p < 0.0001).
-
+- Smoking is the best predictor of potential substance abuse problems, being common in all age groups (p < 0.0001). However, the logistic regression shows that being married makes one 10 times less susceptible to substance abuse problems.
 
 ## View the notebook
 
